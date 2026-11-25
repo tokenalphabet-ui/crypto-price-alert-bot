@@ -7,7 +7,7 @@ A small, self-hosted Telegram bot that messages you when a coin hits your price.
 - `/alert SOL change 5`: ping me when Solana moves 5% up or down from now
 - `/price BTC ETH SOL`: current price and 24h change
 
-Works with thousands of coins. Prices come from the free [CoinGecko API](https://www.coingecko.com/en/api). Every alert includes a link to the coin's live chart and full price history on [TokenAlphabet](https://tokenalphabet.com/).
+Works with thousands of coins. Prices come from the free [CoinGecko API](https://www.coingecko.com/en/api). Every alert includes a link to the coin's live chart and full price history on [TokenAlphabet](https://token-alphabet.com/).
 
 ## What it looks like
 
@@ -90,7 +90,7 @@ bot.py         Telegram commands and the price check job
 alerts.py      Parsing "/alert BTC above 100k", trigger rules, formatting
 coingecko.py   Async CoinGecko client: ticker lookup and batched prices
 storage.py     SQLite storage for alerts
-links.py       Links to coin charts on tokenalphabet.com
+links.py       Links to coin charts on token-alphabet.com
 tests/         Unit tests: python -m unittest discover -s tests
 ```
 
@@ -107,7 +107,7 @@ Pull requests are welcome.
 
 ## About
 
-Made by [TokenAlphabet](https://tokenalphabet.com/): live crypto prices, charts, market cap rankings and free historical data for Bitcoin and thousands of altcoins. See also our [crypto wallet guides](https://github.com/tokenalphabet-ui/awesome-crypto-wallets).
+Made by [TokenAlphabet](https://token-alphabet.com/): live crypto prices, charts, market cap rankings and free historical data for Bitcoin and thousands of altcoins. See also our [crypto wallet guides](https://github.com/tokenalphabet-ui/awesome-crypto-wallets).
 
 Not financial advice. Prices can be delayed; do not rely on this bot for trading decisions that need exact timing.
 

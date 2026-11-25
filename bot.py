@@ -2,7 +2,7 @@
 
 Set alerts like "/alert BTC above 100000" and get a message when the price
 gets there. Prices come from the free CoinGecko API; every alert links to the
-coin's live chart on TokenAlphabet (https://tokenalphabet.com).
+coin's live chart on TokenAlphabet (https://token-alphabet.com).
 """
 
 from __future__ import annotations
@@ -48,7 +48,7 @@ HELP = """<b>Crypto price alerts</b>
 /clear: delete all your alerts
 
 Numbers can be written as 100000, 100k or 1.5m. Each alert fires once.
-Live charts and price history: <a href="{site}">tokenalphabet.com</a>
+Live charts and price history: <a href="{site}">token-alphabet.com</a>
 Not financial advice."""
 
 COMMANDS = [
