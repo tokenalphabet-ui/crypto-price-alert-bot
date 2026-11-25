@@ -64,9 +64,11 @@ class FormatTest(unittest.TestCase):
 class LinksTest(unittest.TestCase):
     def test_known_and_unknown(self):
         self.assertTrue(chart_url("bitcoin").startswith(
-            "https://tokenalphabet.com/cryptocurrencies/bitcoin-btc-price?"))
+            "https://token-alphabet.com/cryptocurrencies/bitcoin-btc-price?"))
         self.assertTrue(chart_url("no-such-coin").startswith(
-            "https://tokenalphabet.com/cryptocurrencies?"))
+            "https://token-alphabet.com/cryptocurrencies?"))
+        self.assertTrue(chart_url("dogecoin").startswith(
+            "https://tokenalphabet.com/cryptocurrencies/dogecoin-doge-price?"))
 
 
 class StorageTest(unittest.TestCase):
